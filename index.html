@@ -4,9 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style rel="style.css" href="style.css"></style>
+    <script href="script.js"></script>
     <title>Document</title>
   </head>
   <body>
-    <h1>Hello world</h1>
+    <div class="container1">
+      <h1 id="head1">MiX Mood Colors</h1>
+      <p id=" p1">Select you mood</p>
+      <select
+        inputmode="button"
+        id="moods"
+        title="color"
+        onclick="genratecolor()"
+      >
+        <h4 id="h4">Select mood</h4>
+        <option>mood</option>
+        <option value="Active">Active</option>
+        <option value="Responsible">Responsible</option>
+        <option value="Supportive">Supportive</option>
+        <option value="Happy">Happy</option>
+        <option value="Sad">Calm / Sad</option>
+        <option value="Angry">Angry</option>
+        <option value="Tense">Stress/Tense</option>
+        <option value="NotSure">Not sure of the current Mood/ Nervous</option>
+      </select>
+    </div>
   </body>
 </html>
